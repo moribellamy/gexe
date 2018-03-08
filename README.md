@@ -10,6 +10,14 @@ You might consider gexe if your binary isn't production critical, or if
 you don't want to become expert in a new nanny proc every time you run on a new
 platform.
 
+## Usage
+
+```
+$ go get github.com/moribellamy/gexe
+$ cp $GOPATH/src/github.com/moribellamy/gexe </next/to/your/deployment/folder>
+$ ./gexe
+```
+
 ## Alternatives
 
 Consider your platform's main daemonization solution for production use.
